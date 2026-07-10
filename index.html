@@ -39,7 +39,7 @@
         }
         .right-logo {
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .right-logo img {
@@ -48,7 +48,13 @@
     display: block;
     animation: fadeInLogo 2.5s ease-in;
 }
-
+ .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 @keyframes fadeInLogo {
     0% { opacity: 0; transform: translateY(-10px); }
     100% { opacity: 1; transform: translateY(0); }
@@ -227,7 +233,9 @@
         <div class="logo" style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 26px; color: #1e5494;">
             ARNAB MARKETING
         </div>
-<div class="right-logo"><img src="A (2).jpg" alt="Logo" style="height: 40px; width: auto; display: block;"></div>
+<div class="right-logo">
+    <img src="A (2).jpg" alt="Logo"> 
+</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
